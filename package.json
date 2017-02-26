@@ -22,6 +22,7 @@
   "author": "Cory House",
   "license": "MIT",
   "dependencies": {
+    "angular": "1.6.2",
     "whatwg-fetch": "1.0.0"
   },
   "devDependencies": {
