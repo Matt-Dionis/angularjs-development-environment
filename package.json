@@ -19,8 +19,7 @@
   "author": "Matt Dionis",
   "license": "MIT",
   "dependencies": {
-    "angular": "1.6.2",
-    "whatwg-fetch": "1.0.0"
+    "angular": "1.6.2"
   },
   "devDependencies": {
     "babel-cli": "6.16.0",
