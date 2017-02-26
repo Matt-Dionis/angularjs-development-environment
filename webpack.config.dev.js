@@ -10,7 +10,7 @@ export default {
   },
   devtool: 'eval-source-map',
   entry: [
-    path.resolve(__dirname, 'src/index.js')
+    path.resolve(__dirname, 'src/app/app.js')
   ],
   target: 'web',
   output: {
@@ -42,6 +42,7 @@ export default {
   module: {
     rules: [
       {test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader'},
+      {test: /\.html$/, loader: 'raw-loader'},
       {test: /\.css$/, loaders: ['style-loader','css-loader?sourceMap']}
     ]
   }
